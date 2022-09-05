@@ -15,7 +15,7 @@ const provider = new ethers.providers.Web3Provider(window.ethereum);
 
 
 ///////THIS PART IS FOR IPFS UPLOAD////////
-//authorisation now that there are no more public gateways for ipfs...
+//authorisation now that there are no more public gateways for ipfs... 
 const projectID = process.env.PROJECT_ID;
 const projectSecret = process.env.PROJECT_SECRET;
 const auth = "Basic " + btoa(projectID + ":" + projectSecret);
