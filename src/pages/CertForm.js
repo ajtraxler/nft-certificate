@@ -32,9 +32,6 @@ function CertForm() {
   const [isLoading, updateIsLoading] = useState(false);
   const [fileUrl, updateFileUrl] = useState("");
   const [jsonURL, updateJsonURL] = useState("");
-  const [artist, updateArtist] = useState("");
-  const [title, updateTitle] = useState("");
-  const [year, updateYear] = useState(0);
   const [list, updateList] = useState([]);
   const [minted, updateMinted] = useState(false);
   const navigate = useNavigate();
@@ -49,9 +46,6 @@ function CertForm() {
       let titleValue = document.getElementById('title').value;
       let yearValue = document.getElementById('year').value;
 
-      updateArtist(artistValue);
-      updateTitle(titleValue);
-      updateYear(yearValue);
 
       //according to OpenSea metadata standard
       const metaData = {
