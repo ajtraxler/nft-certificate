@@ -13,16 +13,3 @@
 
 # misc
 .env
-<<<<<<< HEAD
-
-=======
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
->>>>>>> c0b52df0f6442e25cf87cd915dde5e68c1e0fba6
