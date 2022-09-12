@@ -5,7 +5,6 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract Certificate is ERC721URIStorage {
-    using Counters for Counters.Counter;
     uint256 _tokenIds;
     string artist;
     string title;
